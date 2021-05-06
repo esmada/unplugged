@@ -94,9 +94,12 @@ body {
   font-weight: 400;
   font-size: 16px;
   padding: 20px;
-
 }
 
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
 
 /*----------------------- Base Header-Footer Styles -------------------------*/
 
@@ -119,11 +122,8 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  width: 100%;
   margin: 0;
 }
-
-
 
 header figure {
 
@@ -132,6 +132,7 @@ header figure {
 .header-divider {
   width: 100%;
   height: 1px;
+  margin: 10px 0 20px 0;
   background-color: #3a3a3a;
 }
 
@@ -147,12 +148,10 @@ header nav {
 header nav ul {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  width: 60%;
+  width: 100%;
 }
 
 header nav ul li {
-  width: 50%;
   list-style: none;
 }
 
@@ -165,7 +164,7 @@ header nav ul li a {
 /* Footer */
 
 footer {
-
+  flex-direction: column;
 }
 
 footer .content-wrapper {
@@ -178,11 +177,7 @@ footer .footer-contact {
 }
 
 footer .contact {
-
-}
-
-footer p {
-  margin: 0;
+  margin-bottom: 50px;
 }
 
 footer .social {
@@ -201,22 +196,19 @@ footer .social-icons p {
   align-items: center;
 }
 
+footer .copyright {
+  margin: 20px 0;
+}
+
 
 /*----------------------- Mobile Styles - Homepage -------------------------*/
 
 /* Hero */
 
 .hero-area {
-  background-image: url(../img/hero-photo.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0 auto;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  width: 100%;
-  height: 500px;
-  overflow: visible;
 }
 
 .hero-area h2 {
@@ -233,11 +225,9 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  padding: 30px 0 34px 0;
 }
 
 aside .form-description {
-  padding-bottom: 40px;
 
 }
 
@@ -260,14 +250,19 @@ aside .form input {
   flex-flow: row wrap;
 }
 
+.features h2 {
+  margin-bottom: 60px;
+}
+
 .features p {
   margin: 0;
 }
 
 .features article {
-  width: 100%;
+  width: 63%;
+  margin-top: 30px 0;
+  padding-top: 30px;
   text-align: center;
-  margin-top: 30px;
 }
 
 .fontawesome-icon {
@@ -286,12 +281,16 @@ aside .form input {
 .reviews {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
 }
 
+.reviews h2 {
+  margin-bottom: 40px;
+}
+
 .reviews h3 {
-  width: 50%;
+  width: 55%;
+  margin: 20px 0;
 }
 
 /* =========================================================================
