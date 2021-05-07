@@ -257,8 +257,9 @@ footer .social-icons i {
 }
 
 footer .copyright {
-  padding-top: 20px;
+  padding-top: 40px;
   margin: 20px 0;
+  font-size: .75em;
 }
 
 
@@ -621,6 +622,10 @@ aside .form-description {
   }
 
 /* Features */
+
+  .features h2 {
+    width: 85%;
+  }
 
   .features article {
     display: inline-flex;
