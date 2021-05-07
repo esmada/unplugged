@@ -192,6 +192,7 @@ header nav {
   font-weight: 700;
   text-transform: uppercase;
   width: 60%;
+  margin:0;
 }
 
 header nav ul {
@@ -697,8 +698,12 @@ aside .form-description {
     width: 45%;
   }
 
+  .map figure {
+    padding-bottom: 50%;
+  }
+
   .contact-section .content-wrapper h2 {
-    width: 80%;
+    width: 75%;
   }
 
   .contact-content {
@@ -748,7 +753,7 @@ aside .form-description {
   }
 
   h2 {
-    font-size: 2.25em;
+    font-size: 2em;
   }
 
   h3, h4 {
@@ -815,9 +820,14 @@ aside .form-description {
 
   .mission h2,
   .contact-section .content-wrapper h2 {
-    width: 95%;
-    font-size: 3em;
+    width: 80%;
+    font-size: 2.5em;
   }
+
+  .map figure {
+    padding-bottom: 30%;
+  }
+
 
   /* ============================================================================
       FAQ Page
