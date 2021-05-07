@@ -339,8 +339,9 @@ aside .form-description {
   margin-top: 30px;
 }
 
-.fontawesome-icon {
-
+.features i {
+  font-size: 3.75em;
+  margin: 30px 0 20px 0;
 }
 
 .features .features-item-description {
